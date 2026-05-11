@@ -1,5 +1,12 @@
 # FairRARI: A Plug and Play Framework for Fairness-Aware PageRank
 
+[![paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.08589)
+&nbsp;
+
+This is a public code repository for our publication in the International Conference on Machine Learning (ICML) 2026:
+> [**FairRARI: A Plug and Play Framework for Fairness-Aware PageRank**](https://arxiv.org/abs/2602.08589)<br>
+> Emmanouil Kariotakis, Aritra Konar <br>
+
 ## Abstract
 PageRank (PR) is a fundamental algorithm in graph machine learning tasks. Owing to the increasing importance of algorithmic fairness, we consider the problem of computing PR vectors subject to various group-fairness criteria based on sensitive attributes of the vertices. At present, principled algorithms for this problem are lacking -  some cannot guarantee that a target fairness level is achieved, while others do not feature optimality guarantees. In order to overcome these shortcomings, we put forth a unified in-processing convex optimization framework, termed FairRARI, for tackling different group-fairness criteria in a ``plug and play'' fashion. Leveraging a variational formulation of PR, the framework computes fair PR vectors by solving a strongly convex optimization problem with fairness constraints, thereby ensuring that a target fairness level is achieved. We further introduce three different fairness criteria which can be efficiently tackled using FairRARI to compute fair PR vectors with the same asymptotic time-complexity as the original PR algorithm. Extensive experiments on real-world datasets showcase that FairRARI outperforms existing methods in terms of utility, while achieving the desired fairness levels across multiple vertex groups; thereby highlighting its effectiveness.
 
